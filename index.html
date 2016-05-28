@@ -2,9 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Pizza</title>
+    <title>🍕🍕</title>
+    <style>
+      body {
+        font-size: 180px;
+        background-image: url('https://images.unsplash.com/photo-1447433553548-2fc162393482?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1440&h=1551&q=80');
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .za {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin: -100px 0 0 -100px;
+        animation: spin 2s linear infinite;
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+    </style>
   </head>
   <body>
-    🍕
+    <span class="za">🍕</span>
   </body>
 </html>
